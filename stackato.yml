@@ -5,6 +5,10 @@ framework:
 buildpack: git://git@54.79.79.134/ruby_buildpack.git
 services:
  fatfree-test: mysql
+requirements:
+ running:
+  ubuntu:
+   - git
 
 hooks:
  pre-staging:

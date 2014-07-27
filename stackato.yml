@@ -5,10 +5,6 @@ framework:
  runtime: ruby2
 services:
  fatfree-test: mysql
-requirements:
- running:
-  ubuntu:
-   - git 
 
 hooks:
  pre-staging:
